@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="TmpNewVariableDialog_Name" sid="829369825876292" static="0" type="text"></variable>
+        <variable constant="0" name="TmpNewVariableDialog_InitialValue" sid="240062942220802" static="0" type="text"></variable>
+        <variable constant="0" name="TmpNewVariableDialog_Type" sid="375538316752340" static="0" type="text"></variable>
+        <event-block sid="866609308960528">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="805810926473957" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Check item exists" sid="620238039261588" type="LocalStorage">
+                    <param id="0" name="Key">&quot;NotFirstTime&quot;</param>
+                </action>
+                <action id="1" name="Get item" sid="694633953093093" type="LocalStorage">
+                    <param id="0" name="Key">&quot;NotFirstTime&quot;</param>
+                </action>
+                <action id="14" name="Log" sid="437960100801478" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;Checking if Eventlr has been ever used...&quot;</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="297439379122310" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`jq -r &apos;.id&apos; /1/bulbasaur.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action id="17" name="Execute Javascript" sid="497766335912050" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`echo &apos;{&quot;&quot;version&quot;&quot;: &quot;&quot;v1&quot;&quot;}&apos; &gt; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="933628018475779" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="17" name="Execute Javascript" sid="240357566804141" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`tmp=&quot;&quot;$(mktemp)&quot;&quot;; cat /tmp/eventsheet.json | jq --arg next_var &quot;&quot;1&quot;&quot; &apos;. + {next_var: $next_var}&apos; &gt;&quot;&quot;$tmp&quot;&quot; &amp;&amp; mv &quot;&quot;$tmp&quot;&quot; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="358366187571073" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="17" name="Execute Javascript" sid="767030722593986" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`tmp=&quot;&quot;$(mktemp)&quot;&quot;; cat /tmp/eventsheet.json | jq &apos;. + {next_var: 1}&apos; &gt;&quot;&quot;$tmp&quot;&quot; &amp;&amp; mv &quot;&quot;$tmp&quot;&quot; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="919033275177041" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="17" name="Execute Javascript" sid="195777954739630" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`tmp=&quot;&quot;$(mktemp)&quot;&quot;; cat /tmp/eventsheet.json | jq --arg vars &quot;&quot;[]&quot;&quot; &apos;. + {vars: $vars}&apos; &gt;&quot;&quot;$tmp&quot;&quot; &amp;&amp; mv &quot;&quot;$tmp&quot;&quot; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="477228394547636" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="17" name="Execute Javascript" sid="942848567420153" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`tmp=&quot;&quot;$(mktemp)&quot;&quot;; cat /tmp/eventsheet.json | jq &apos;. + {vars: []}&apos; &gt;&quot;&quot;$tmp&quot;&quot; &amp;&amp; mv &quot;&quot;$tmp&quot;&quot; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="423923944090606" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="397029378285124" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(`child_process`);exec(`jq -r &apos;.next_var&apos; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`);return});&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="438190752176817" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;var exec=require(&apos;child_process&apos;).exec;function execute(command,callback){exec(command,function(error,stdout,stderr){callback(stdout)})};module.exports.getGitUser=function(callback){execute(&quot;&quot;git config --global user.name&quot;&quot;,function(name){execute(&quot;&quot;git config --global user.email&quot;&quot;,function(email){callback({name:name.replace(&quot;&quot;\n&quot;&quot;,&quot;&quot;&quot;&quot;),email:email.replace(&quot;&quot;\n&quot;&quot;,&quot;&quot;&quot;&quot;)})})})};&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="615539667451543" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="186560992031643" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}ls().then((out)=&gt;{console.log(out)})&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="442135552317205" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="383197652874085" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(`child_process`);exec(`jq -r &apos;.next_var&apos; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;)</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="148737602298287" type="Browser">
+                    <param id="0" name="Javascript">&quot;function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}&quot;</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="424398346679897" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;ls()&quot;)</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="169519136886242" type="Browser">
+                    <param id="0" name="Javascript">&quot;function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}ls()&quot;</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="435142686315685" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(`child_process`);exec(`jq -r &apos;.next_var&apos; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="418664284384844" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;stdout&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="608344485156766" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(`child_process`);exec(`jq -r &apos;.next_var&apos; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});stdout&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="897821294738679" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}ls().then((out)=&gt;{console.log(out)})&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="928648127690713" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="119155478299796" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="167312679055133" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;&quot;)</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="539567096959278" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}&quot;</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="296334578738237" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;await ls()&quot;)</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="440338810463410" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}&quot;</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="287757316918509" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;ls()&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="491807247320393" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}ls()&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="839044355572999" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}async function unwrapLs(){const stdout=await ls();return stdout}&quot;)</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="669290851538544" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}&quot;</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="444661426663818" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;async function unwrapLs(){const stdout=await ls();return stdout}&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="160816311694019" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}await ls()&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="516363259291672" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(){return new Promise((resolve,reject)=&gt;{exec(&quot;&quot;jq -r &apos;.next_var&apos; /tmp/eventsheet.json&quot;&quot;,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);reject(error.message)}if(stderr){console.log(`stderr:${stderr}`);reject(stderr)}console.log(`stdout:${stdout}`);resolve(stdout)})})}ls()&quot;)</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="729957043710684" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(callback){exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(c2_callFunction)c2_callFunction(callback,[error,stdout,stderr])})}&quot;</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="134207875743013" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;ls(&apos;lsresult&apos;)&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="924663887025739" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(callback){exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(c2_callFunction)c2_callFunction(callback,[error,stdout,stderr])})}ls(&apos;lsresult&apos;)&quot;)</param>
+                </action>
+                <action disabled="1" id="0" name="Call function" sid="440906789231143" type="Functions">
+                    <param id="0" name="Name">&quot;lsresult&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;error&quot;{###}&quot;stdout&quot;{###}&quot;stderr&quot;</param>
+                </action>
+                <action disabled="1" id="-16" name="Wait" sid="849877892327748" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="647107251605660" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;ls(&apos;lsresult&apos;)&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="450412348138478" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Functions.Call(&quot;lsresult&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="107301170378439" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;ls(&apos;lsresult&apos;)&quot;)</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="158238975443506" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(callback){exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(c2_callFunction)c2_callFunction(callback,[error,stdout,stderr])})}&quot;</param>
+                </action>
+                <action id="9" name="Read" sid="206987791863475" type="Electron">
+                    <param id="0" name="Tag">&quot;eventsheetread&quot;</param>
+                    <param id="1" name="Path">&quot;/tmp/eventsheet.json&quot;</param>
+                    <param id="2" name="Encoding">&quot;utf8&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="322784143094778">
+            <conditions>
+                <condition id="3" name="On read success" sid="536582241703101" type="Electron">
+                    <param id="0" name="Tag">&quot;eventsheetread&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="60" name="LoadJSON" sid="647153116750712" type="eventsheet">
+                    <param id="0" name="JSON">Electron.LastReadAsync</param>
+                    <param id="1" name="Reference point">0</param>
+                    <param id="2" name="Key {n}"></param>
+                </action>
+                <action id="-16" name="Wait" sid="183065907539581" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="14" name="Log" sid="447930814137675" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; eventsheet.Value(0,&quot;next_var&quot;)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block disabled="1" sid="790479274200699">
+            <conditions>
+                <condition id="0" name="On function" sid="460828530102859" type="Functions">
+                    <param id="0" name="Name">&quot;lsresult&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="14" name="Log" sid="275073032623661" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Functions.ReturnValue</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="361482485937454" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Functions.Param(0)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="228147806138741" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Functions.Param(1)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="704626651679477" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Functions.Call(&quot;lsresult&quot;)</param>
+                </action>
+                <action disabled="1" id="14" name="Log" sid="151736051672831" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;ls(&apos;lsresult&apos;)&quot;)</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="147472144715374" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&quot;&quot;child_process&quot;&quot;);function ls(callback){exec(&quot;&quot;ls -la&quot;&quot;,(error,stdout,stderr)=&gt;{if(c2_callFunction)c2_callFunction(callback,[error,stdout,stderr])})}&quot;</param>
+                </action>
+                <action id="14" name="Log" sid="744139440771933" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;next_var is: &quot; &amp; Browser.ExecJS(&quot;ls(&apos;lsresult&apos;)&quot;)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="693348532187466">
+            <conditions>
+                <condition id="0" name="On function" sid="185111091578601" type="Functions">
+                    <param id="0" name="Name">&quot;close&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="491036007580418" type="CloseNewVariable">
+                    <param id="0" name="X">527</param>
+                    <param id="1" name="Y">523</param>
+                </action>
+                <action id="-3" name="Set position" sid="594480986927421" type="VariableName">
+                    <param id="0" name="X">347</param>
+                    <param id="1" name="Y">553</param>
+                </action>
+                <action id="-3" name="Set position" sid="336569473845553" type="VariableType">
+                    <param id="0" name="X">347</param>
+                    <param id="1" name="Y">612</param>
+                </action>
+                <action id="-3" name="Set position" sid="510397317548393" type="VariableInitialValue">
+                    <param id="0" name="X">347</param>
+                    <param id="1" name="Y">677</param>
+                </action>
+                <action id="-3" name="Set position" sid="819403727662656" type="AddVariableSubmit">
+                    <param id="0" name="X">422</param>
+                    <param id="1" name="Y">734</param>
+                </action>
+                <action id="0" name="Set text" sid="204397986419119" type="VariableName">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="697968089479293" type="VariableInitialValue">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set selection" sid="234259427551323" type="VariableType">
+                    <param id="0" name="Index">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="752308255163808">
+            <conditions>
+                <condition id="1" name="On item get" sid="502536008084498" type="LocalStorage">
+                    <param id="0" name="Key">&quot;NotFirstTime&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="14" name="Log" sid="546660562269239" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;Loading data from LocalStorage (it&apos;s like loading your previous savegame)...&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="973060218730346">
+            <conditions>
+                <condition id="10" name="On item missing" sid="753235009119114" type="LocalStorage">
+                    <param id="0" name="Key">&quot;NotFirstTime&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="14" name="Log" sid="217265604966419" type="Browser">
+                    <param id="0" name="Type">0</param>
+                    <param id="1" name="Message">&quot;Welcome to Eventlr! It&apos;s your first time using it, and I can already say: you&apos;ll love it &lt;3&quot;</param>
+                </action>
+                <action id="0" name="Set item" sid="351446917188184" type="LocalStorage">
+                    <param id="0" name="Key">&quot;NotFirstTime&quot;</param>
+                    <param id="1" name="Value">&quot;false&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="438535911372753">
+            <conditions>
+                <condition id="0" name="On clicked" sid="909579202778407" type="addvalue" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="980583089245277" type="System">
+                    <param id="0" name="Variable">VarTypeNo</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="351791362556121" type="System">
+                    <param id="0" name="Variable">TmpNewVariableDialog_Type</param>
+                    <param id="1" name="Value">&quot;Number&quot;</param>
+                </action>
+                <action id="-3" name="Set position" sid="891938920653781" type="CloseNewVariable">
+                    <param id="0" name="X">565</param>
+                    <param id="1" name="Y">150</param>
+                </action>
+                <action id="-3" name="Set position" sid="409409863257121" type="VariableName">
+                    <param id="0" name="X">385</param>
+                    <param id="1" name="Y">180</param>
+                </action>
+                <action id="-3" name="Set position" sid="121538445835421" type="VariableType">
+                    <param id="0" name="X">385</param>
+                    <param id="1" name="Y">239</param>
+                </action>
+                <action id="-3" name="Set position" sid="473825862276747" type="VariableInitialValue">
+                    <param id="0" name="X">385</param>
+                    <param id="1" name="Y">304</param>
+                </action>
+                <action id="-3" name="Set position" sid="672771399721420" type="AddVariableSubmit">
+                    <param id="0" name="X">452</param>
+                    <param id="1" name="Y">362</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="561023265524798">
+            <conditions>
+                <condition id="0" name="On clicked" sid="526541884779896" type="CloseNewVariable" />
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="279842403086775" type="Functions">
+                    <param id="0" name="Name">&quot;close&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="531719083756044">
+            <conditions>
+                <condition id="1" name="On text changed" sid="399114112373996" type="VariableName" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="433614063948885" type="System">
+                    <param id="0" name="Variable">TmpNewVariableDialog_Name</param>
+                    <param id="1" name="Value">VariableName.Text</param>
+                </action>
+                <action id="-9" name="Set value" sid="557612903742226" type="System">
+                    <param id="0" name="Variable">TmpNewVariableDialog_Type</param>
+                    <param id="1" name="Value">VariableType.SelectedText</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="391268070477609">
+            <conditions>
+                <condition id="1" name="On text changed" sid="782200355754400" type="VariableInitialValue" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="736176147559856" type="System">
+                    <param id="0" name="Variable">TmpNewVariableDialog_InitialValue</param>
+                    <param id="1" name="Value">VariableInitialValue.Text</param>
+                </action>
+                <action id="-9" name="Set value" sid="318680522889788" type="System">
+                    <param id="0" name="Variable">TmpNewVariableDialog_Type</param>
+                    <param id="1" name="Value">VariableType.SelectedText</param>
+                </action>
+            </actions>
+        </event-block>
+        <variable constant="0" name="VarTypeNo" sid="565761817163847" static="0" type="number">0</variable>
+        <event-block sid="402119960953912">
+            <conditions>
+                <condition id="1" name="On selection changed" sid="884514463057400" type="VariableType" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="791201117418927" type="System">
+                    <param id="0" name="Variable">TmpNewVariableDialog_Type</param>
+                    <param id="1" name="Value">VariableType.SelectedText</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="726359362958360">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="789672247557943" type="VariableType">
+                            <param id="0" name="Text to compare">&quot;Number&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="544209671961661" type="System">
+                            <param id="0" name="Variable">VarTypeNo</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="567745762329803">
+                    <conditions>
+                        <condition id="4" name="Compare selected item text" sid="374003674144580" type="VariableType">
+                            <param id="0" name="Text to compare">&quot;Text&quot;</param>
+                            <param id="1" name="Case sensitivity">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="149802896228486" type="System">
+                            <param id="0" name="Variable">VarTypeNo</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <comment># NOTE: There&apos;s a catch: Eventlr should differ a RAM project, from an project being loaded from disk (saved). When loading an existing project, read &quot;next_var_updated&quot; from JSON.</comment>
+        <variable constant="0" name="next_var_updated" sid="916551665093866" static="0" type="number">1</variable>
+        <event-block sid="456265011484859">
+            <conditions>
+                <condition id="0" name="On clicked" sid="839120106277317" type="AddVariableSubmit" />
+            </conditions>
+            <actions>
+                <action disabled="1" id="18" name="Append text" sid="727291169132075" type="Log">
+                    <param id="0" name="Text">newline &amp; &quot;Variable &quot; &amp; &quot;(&quot; &amp; TmpNewVariableDialog_Type &amp; &quot;)&quot; &amp; &quot; &quot; &amp; TmpNewVariableDialog_Name &amp; &quot; = &quot; &amp; TmpNewVariableDialog_InitialValue</param>
+                </action>
+                <action id="7" name="Add item" sid="740777136218855" type="VariablesList">
+                    <param id="0" name="Text">&quot;Variable &quot; &amp; &quot;(&quot; &amp; TmpNewVariableDialog_Type &amp; &quot;)&quot; &amp; &quot; &quot; &amp; TmpNewVariableDialog_Name &amp; &quot; = &quot; &amp; TmpNewVariableDialog_InitialValue</param>
+                </action>
+                <action id="17" name="Execute Javascript" sid="601269777660748" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`tmp=&quot;&quot;$(mktemp)&quot;&quot;; cat /tmp/eventsheet.json | jq &apos;.vars[.vars| length] |= . + {&quot;&quot;id&quot;&quot;: &quot;&quot;var_&quot; &amp; next_var_updated &amp; &quot;&quot;&quot;, &quot;&quot;type&quot;&quot;: &quot;&quot;&quot; &amp; VarTypeNo &amp; &quot;&quot;&quot;, &quot;&quot;name&quot;&quot;: &quot;&quot;&quot; &amp; TmpNewVariableDialog_Name &amp; &quot;&quot;&quot;, &quot;&quot;value&quot;&quot;: &quot;&quot;&quot; &amp; TmpNewVariableDialog_InitialValue &amp; &quot;&quot;&quot;}&apos; &gt;&quot;&quot;$tmp&quot;&quot; &amp;&amp; mv &quot;&quot;$tmp&quot;&quot; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="662461359009914" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="0" name="Call function" sid="661800668394218" type="Functions">
+                    <param id="0" name="Name">&quot;close&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="312549425493581" type="Functions">
+                    <param id="0" name="Name">&quot;increase-next_var&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block disabled="1" sid="264027679833296">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="201693417836524" type="System">
+                            <param id="0" name="First value">Browser.ExecJS(&quot;const{exec}=require(&apos;child_process&apos;);exec(`jq -r &apos;.last_var&apos; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;)</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="17" name="Execute Javascript" sid="102833693480339" type="Browser">
+                            <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`cat /tmp/eventsheet.json | jq &apos;.vars[.vars| length] |= . + {&quot;&quot;id&quot;&quot;: &quot;&quot;var_1&quot;&quot;, &quot;&quot;type&quot;&quot;: &quot;&quot;&quot; &amp; VarTypeNo &amp; &quot;&quot;&quot;, &quot;&quot;name&quot;&quot;: &quot;&quot;&quot; &amp; TmpNewVariableDialog_Name &amp; &quot;&quot;&quot;, &quot;&quot;value&quot;&quot;: &quot;&quot;&quot; &amp; TmpNewVariableDialog_InitialValue &amp; &quot;&quot;&quot;}&apos; &gt; /tmp/eventsheet.json2 &amp;&amp; mv -f /tmp/eventsheet.json2 /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="931462393397308" type="System">
+                            <param id="0" name="Seconds">dt</param>
+                        </action>
+                        <action id="0" name="Call function" sid="741552870999153" type="Functions">
+                            <param id="0" name="Name">&quot;increase-last_var&quot;</param>
+                            <param id="1" name="Parameter {n}"></param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="507335571761329">
+                    <conditions>
+                        <condition id="-8" name="Compare two values" sid="446792741623657" type="System">
+                            <param id="0" name="First value">Browser.ExecJS(&quot;const{exec}=require(&apos;child_process&apos;);exec(`jq -r &apos;.last_var&apos; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;)</param>
+                            <param id="1" name="Comparison">5</param>
+                            <param id="2" name="Second value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="657461355802301">
+            <conditions>
+                <condition id="0" name="On function" sid="671715424137054" type="Functions">
+                    <param id="0" name="Name">&quot;increase-next_var&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="-9" name="Set value" sid="859118728223087" type="System">
+                    <param id="0" name="Variable">next_var_updated</param>
+                    <param id="1" name="Value">Browser.ExecJS(&quot;const{exec}=require(&apos;child_process&apos;);exec(`jq -r &apos;.next_var&apos; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;) + 1</param>
+                </action>
+                <action disabled="1" id="-16" name="Wait" sid="275871876412192" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="814366150743049" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`tmp=&quot;&quot;$(mktemp)&quot;&quot;; cat /tmp/eventsheet.json | jq &apos;. + {.next_var: &quot; &amp; next_var_updated &amp; &quot;}&apos; &gt;&quot;&quot;$tmp&quot;&quot; &amp;&amp; mv &quot;&quot;$tmp&quot;&quot; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action disabled="1" id="19" name="Append new line text" sid="114104324263230" type="Log">
+                    <param id="0" name="Text">&quot;result of next_var_updated: &quot; &amp; next_var_updated</param>
+                </action>
+                <action disabled="1" id="19" name="Append new line text" sid="403691375697573" type="Log">
+                    <param id="0" name="Text">&quot;result of JSON&apos;s next_var: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(&apos;child_process&apos;);exec(`jq -r &apos;.next_var&apos; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;)</param>
+                </action>
+                <action id="-9" name="Set value" sid="663609603051286" type="System">
+                    <param id="0" name="Variable">next_var_updated</param>
+                    <param id="1" name="Value">eventsheet.Value(0,&quot;next_var&quot;) + 1</param>
+                </action>
+                <action disabled="1" id="-16" name="Wait" sid="894644661852978" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action disabled="1" id="17" name="Execute Javascript" sid="923902613468515" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`tmp=&quot;&quot;$(mktemp)&quot;&quot;; cat /tmp/eventsheet.json | jq &apos;. + {.next_var: &quot; &amp; next_var_updated &amp; &quot;}&apos; &gt;&quot;&quot;$tmp&quot;&quot; &amp;&amp; mv &quot;&quot;$tmp&quot;&quot; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="511049534537882" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="17" name="Execute Javascript" sid="838388750371241" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`tmp=&quot;&quot;$(mktemp)&quot;&quot;; cat /tmp/eventsheet.json | jq --arg next_var &quot;&quot;&quot; &amp; next_var_updated &amp; &quot;&quot;&quot; &apos;. + {next_var: $next_var}&apos; &gt;&quot;&quot;$tmp&quot;&quot; &amp;&amp; mv &quot;&quot;$tmp&quot;&quot; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="544683047479553" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="17" name="Execute Javascript" sid="508967206986614" type="Browser">
+                    <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`tmp=&quot;&quot;$(mktemp)&quot;&quot;; cat /tmp/eventsheet.json | jq &apos;. + {next_var: &quot; &amp; next_var_updated &amp; &quot;}&apos; &gt;&quot;&quot;$tmp&quot;&quot; &amp;&amp; mv &quot;&quot;$tmp&quot;&quot; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                </action>
+                <action id="9" name="Read" sid="743725303198283" type="Electron">
+                    <param id="0" name="Tag">&quot;eventsheetread&quot;</param>
+                    <param id="1" name="Path">&quot;/tmp/eventsheet.json&quot;</param>
+                    <param id="2" name="Encoding">&quot;utf8&quot;</param>
+                </action>
+                <action id="-16" name="Wait" sid="934509247056153" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="19" name="Append new line text" sid="283179106042874" type="Log">
+                    <param id="0" name="Text">&quot;result of next_var_updated: &quot; &amp; next_var_updated</param>
+                </action>
+                <action id="19" name="Append new line text" sid="153002905616018" type="Log">
+                    <param id="0" name="Text">&quot;result of JSON&apos;s next_var: &quot; &amp; eventsheet.Value(0,&quot;next_var&quot;)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block disabled="1" sid="635133537200372">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="355839150189040" type="System">
+                            <param id="0" name="Variable">next_var_updated</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="281057017163663" type="System">
+                            <param id="0" name="Variable">next_var_updated</param>
+                            <param id="1" name="Value">Browser.ExecJS(&quot;const{exec}=require(&apos;child_process&apos;);exec(`jq -r &apos;.next_var&apos; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;) + 1</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="781723589026834" type="System">
+                            <param id="0" name="Seconds">dt</param>
+                        </action>
+                        <action id="17" name="Execute Javascript" sid="810998445201656" type="Browser">
+                            <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`tmp=&quot;&quot;$(mktemp)&quot;&quot;; cat /tmp/eventsheet.json | jq &apos;. + {.next_var: &quot; &amp; next_var_updated &amp; &quot;}&apos; &gt;&quot;&quot;$tmp&quot;&quot; &amp;&amp; mv &quot;&quot;$tmp&quot;&quot; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                        </action>
+                        <action id="19" name="Append new line text" sid="291331904779268" type="Log">
+                            <param id="0" name="Text">&quot;result of next_var_updated: &quot; &amp; next_var_updated</param>
+                        </action>
+                        <action id="19" name="Append new line text" sid="507188635835780" type="Log">
+                            <param id="0" name="Text">&quot;result of JSON&apos;s next_var: &quot; &amp; Browser.ExecJS(&quot;const{exec}=require(&apos;child_process&apos;);exec(`jq -r &apos;.last_var&apos; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block disabled="1" sid="669355599118361">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="596603415831675" type="System">
+                            <param id="0" name="Variable">next_var_updated</param>
+                            <param id="1" name="Comparison">4</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="17" name="Execute Javascript" sid="656954667463089" type="Browser">
+                            <param id="0" name="Javascript">&quot;const{exec}=require(&apos;child_process&apos;);exec(`tmp=&quot;&quot;$(mktemp)&quot;&quot;; cat /tmp/eventsheet.json | jq &apos;. + {.next_var: &quot; &amp; next_var_updated &amp; &quot;}&apos; &gt;&quot;&quot;$tmp&quot;&quot; &amp;&amp; mv &quot;&quot;$tmp&quot;&quot; /tmp/eventsheet.json`,(error,stdout,stderr)=&gt;{if(error){console.log(`error:${error.message}`);return}if(stderr){console.log(`stderr:${stderr}`);return}console.log(`${stdout}`)});&quot;</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="353737753754771" type="System">
+                            <param id="0" name="Seconds">dt</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="641090702818506" type="System">
+                            <param id="0" name="Variable">next_var_updated</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

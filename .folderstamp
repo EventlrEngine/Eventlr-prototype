@@ -1,0 +1,662 @@
+This folder: /home/daniell/Desktop/Eventlr/Eventlr prototype (up-to-date than Windows)
+
+  File: ./Layouts/Layout 1.uistate.xml
+  Size: 1282      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205871     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.884135497 -0300
+Modify: 2021-09-21 21:40:39.018465000 -0300
+Change: 2022-03-05 14:37:08.971208340 -0300
+ Birth: -
+IPFS hash: QmXiHLgnQkHLSxeyDWhREcBpPPkXfgHTWghj7nqQoA615K
+------------------------------
+  File: ./Layouts/Layout 1.xml
+  Size: 19021     	Blocks: 40         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205573     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.884135497 -0300
+Modify: 2021-09-21 21:40:39.014465000 -0300
+Change: 2022-03-05 14:37:08.971208340 -0300
+ Birth: -
+IPFS hash: QmdzanDmcgGf8hW4YXNAB3V1ttqSXhCDcHTaKaWGqth4Ya
+------------------------------
+  File: ./Event sheets/Event sheet 1.uistate.xml
+  Size: 1048      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205556     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.720135270 -0300
+Modify: 2021-09-21 21:40:39.034465000 -0300
+Change: 2022-03-05 14:37:08.967208383 -0300
+ Birth: -
+IPFS hash: QmZe2J1NUfFjJyzsjT5uyEUGg8dKuW8iDPXgbTffiLPR2q
+------------------------------
+  File: ./Event sheets/Event sheet 1.xml
+  Size: 54446     	Blocks: 112        IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205549     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.720135270 -0300
+Modify: 2021-09-21 21:40:39.026465000 -0300
+Change: 2022-03-05 14:37:08.967208383 -0300
+ Birth: -
+IPFS hash: QmS4iqgiq4K6L2USjoVRRb6t3s1UWM28JJDEFiwtQCBKrr
+------------------------------
+  File: ./Eventlr quick prototype.uistate.xml
+  Size: 1426      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205884     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.880135491 -0300
+Modify: 2021-09-21 21:40:39.002465000 -0300
+Change: 2022-03-05 14:37:59.506645549 -0300
+ Birth: -
+IPFS hash: QmQTjJTJjdbNxoUuARjp8CnKrgzC94kHhTLYXxuKXWdjoe
+------------------------------
+  File: ./Files/icon-16.png
+  Size: 1041      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205872     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:07.173168879 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-05 14:37:29.862979050 -0300
+ Birth: -
+IPFS hash: QmSbDE1mByEBSELhVmQTQFiNGMk9qXBkHYB5hSdBMK8wDQ
+------------------------------
+  File: ./Files/icon-32.png
+  Size: 2967      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205873     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:07.181168972 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-05 14:37:29.862979050 -0300
+ Birth: -
+IPFS hash: QmQaj3Ksk8ho8vXB4Kr1gjQ67frHJk2hc3kGmYj8t9oFyg
+------------------------------
+  File: ./Files/loading-logo.png
+  Size: 9375      	Blocks: 24         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205877     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:07.181168972 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-05 14:37:29.870978961 -0300
+ Birth: -
+IPFS hash: QmeRj44aQFKvYpfqcLDaVyCnteNaidXntFLoU2TEJkJQKt
+------------------------------
+  File: ./Files/icon-128.png
+  Size: 33382     	Blocks: 72         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205875     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:07.169168834 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-05 14:37:29.870978961 -0300
+ Birth: -
+IPFS hash: QmUtz5aRXpyNmkawJoAFpCmcKAREt5RVNVrEq68VzttAUY
+------------------------------
+  File: ./Files/icon-256.png
+  Size: 98347     	Blocks: 200        IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205876     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:07.173168879 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-05 14:37:29.870978961 -0300
+ Birth: -
+IPFS hash: QmQUKeb5ruKhiAfeverMQcjgkb4nFuk6v7rEXtpQkgSchR
+------------------------------
+  File: ./Files/icon-114.png
+  Size: 25223     	Blocks: 56         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205874     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:07.165168787 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-05 14:37:29.870978961 -0300
+ Birth: -
+IPFS hash: QmPMusqZ32WRpLAo4HMgoa2neTfjhDJYJBSsvwwyuNTYrQ
+------------------------------
+  File: ./Eventlr quick prototype.capx.backup1
+  Size: 3399497   	Blocks: 6640       IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205879     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.720135270 -0300
+Modify: 2021-09-20 01:08:12.427452000 -0300
+Change: 2022-03-05 14:37:59.506645549 -0300
+ Birth: -
+IPFS hash: QmUSKDgz6AFoGi14qJ3EmAJnFUD5CKtwM8SZFcpQa8quCC
+------------------------------
+  File: ./.git/description
+  Size: 73        	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329615     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:55.393710669 -0300
+Modify: 2022-11-30 22:52:41.943606685 -0300
+Change: 2022-11-30 22:52:41.943606685 -0300
+ Birth: -
+IPFS hash: Qmdy135ZFG4kUALkaMhr6Cy3VhhkxyAh264kyg3725x8be
+------------------------------
+  File: ./.git/hooks/pre-push.sample
+  Size: 1348      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329616     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:55.913716374 -0300
+Modify: 2022-11-30 22:52:41.943606685 -0300
+Change: 2022-11-30 22:52:41.943606685 -0300
+ Birth: -
+IPFS hash: QmXprUtrWGYLRETUvuA89HjwUGdufGrwJxYaXyGwQ7TMvQ
+------------------------------
+  File: ./.git/hooks/prepare-commit-msg.sample
+  Size: 1492      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329617     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:56.233719883 -0300
+Modify: 2022-11-30 22:52:41.947606757 -0300
+Change: 2022-11-30 22:52:41.947606757 -0300
+ Birth: -
+IPFS hash: QmPku8ai5p4sSCDHe19n9Ekfo21xM5urFdkq9Rg1wBHjcV
+------------------------------
+  File: ./.git/hooks/pre-rebase.sample
+  Size: 4898      	Blocks: 16         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329618     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:56.885727029 -0300
+Modify: 2022-11-30 22:52:41.947606757 -0300
+Change: 2022-11-30 22:52:41.947606757 -0300
+ Birth: -
+IPFS hash: QmSQrei5kUrb4RaEp4c7oobLEHURhPJ8AFZS1uiRg4JfLv
+------------------------------
+  File: ./.git/hooks/pre-commit
+  Size: 179       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303949     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:02:36.631355388 -0300
+Modify: 2022-11-30 23:02:36.635355427 -0300
+Change: 2022-11-30 23:02:36.635355427 -0300
+ Birth: -
+IPFS hash: QmaaZMhLVvqi941fwigdrevUFW8fkkH4qYXKwpsftPUTtr
+------------------------------
+  File: ./.git/hooks/update.sample
+  Size: 3610      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329619     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:57.245730972 -0300
+Modify: 2022-11-30 22:52:41.947606757 -0300
+Change: 2022-11-30 22:52:41.947606757 -0300
+ Birth: -
+IPFS hash: QmfKMgUdSUwrS1wF6yfkQ9B6Vdbomrx87vGhpvpLfxgVn2
+------------------------------
+  File: ./.git/hooks/fsmonitor-watchman.sample
+  Size: 3079      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329620     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:57.733736315 -0300
+Modify: 2022-11-30 22:52:41.947606757 -0300
+Change: 2022-11-30 22:52:41.947606757 -0300
+ Birth: -
+IPFS hash: QmTRjr8FhnRPHMZTTBF1vZ3NJmPB3pL2ekRTuiGYu19quX
+------------------------------
+  File: ./.git/hooks/pre-receive.sample
+  Size: 544       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329621     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:58.065739950 -0300
+Modify: 2022-11-30 22:52:41.947606757 -0300
+Change: 2022-11-30 22:52:41.947606757 -0300
+ Birth: -
+IPFS hash: QmRKbU9DFRNWjR1UwV4nC6MXPnrNanfsBM5579t4HLUuig
+------------------------------
+  File: ./.git/hooks/git-meta.sh
+  Size: 5460      	Blocks: 16         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303948     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2021-11-16 20:06:13.455645000 -0300
+Modify: 2021-11-16 20:06:06.102519000 -0300
+Change: 2022-11-30 23:02:36.631355388 -0300
+ Birth: -
+IPFS hash: QmP3C3ydRS6N16PxYZBB7VpKmZX4c2VaSiXHYsCfVhb55f
+------------------------------
+  File: ./.git/hooks/post-update.sample
+  Size: 189       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329622     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:58.525744982 -0300
+Modify: 2022-11-30 22:52:41.947606757 -0300
+Change: 2022-11-30 22:52:41.947606757 -0300
+ Birth: -
+IPFS hash: QmQjYxVj9iwitDGkmR48Cemr1JTgc6pvwo5cFkumNWqnjm
+------------------------------
+  File: ./.git/hooks/pre-commit.sample
+  Size: 1638      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329623     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:59.005750232 -0300
+Modify: 2022-11-30 22:52:41.947606757 -0300
+Change: 2022-11-30 22:52:41.947606757 -0300
+ Birth: -
+IPFS hash: QmdzPLQANJjZton4gqoxXeX6yqchxQ4RMpE8P5DEiogThd
+------------------------------
+  File: ./.git/hooks/commit-msg.sample
+  Size: 896       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329624     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:59.477755391 -0300
+Modify: 2022-11-30 22:52:41.947606757 -0300
+Change: 2022-11-30 22:52:41.947606757 -0300
+ Birth: -
+IPFS hash: QmQbraCfKaCTZkqtdXCJPc11CWEiZGw1yYGwtbA6nbXWeh
+------------------------------
+  File: ./.git/hooks/applypatch-msg.sample
+  Size: 478       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329625     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:59.921760243 -0300
+Modify: 2022-11-30 22:52:41.947606757 -0300
+Change: 2022-11-30 22:52:41.947606757 -0300
+ Birth: -
+IPFS hash: QmY2duvZ5Resxt8astYUgQ8RXQz1N9axe77gCb5j6M95Gf
+------------------------------
+  File: ./.git/hooks/pre-merge-commit.sample
+  Size: 416       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329626     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:00.461766140 -0300
+Modify: 2022-11-30 22:52:41.951606830 -0300
+Change: 2022-11-30 22:52:41.951606830 -0300
+ Birth: -
+IPFS hash: QmPte81MJoXgCngK75SVZTn2DAXskuo9gdVr2uR5PfVVQE
+------------------------------
+  File: ./.git/hooks/pre-applypatch.sample
+  Size: 424       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329627     Links: 1
+Access: (0775/-rwxrwxr-x)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:00.817770026 -0300
+Modify: 2022-11-30 22:52:41.951606830 -0300
+Change: 2022-11-30 22:52:41.951606830 -0300
+ Birth: -
+IPFS hash: QmdzjzkpM31jTKd5YBJkWsbDXJeeW1Uy1UxVPwfKFxwy89
+------------------------------
+  File: ./.git/index
+  Size: 1232      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303934     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:07.201169201 -0300
+Modify: 2022-11-30 22:59:07.185169018 -0300
+Change: 2022-11-30 22:59:07.185169018 -0300
+ Birth: -
+IPFS hash: QmWU6ALJogNhk7AJgQtRZNXA4jG3AeFwhvG1kSxN3PxE3g
+------------------------------
+  File: ./.git/info/exclude
+  Size: 240       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329628     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:52:41.971607194 -0300
+Modify: 2022-11-30 22:52:41.951606830 -0300
+Change: 2022-11-30 22:52:41.951606830 -0300
+ Birth: -
+IPFS hash: QmcfzxUpw36y8fu2GR3s7Vgq7RBgooKtc6BgsqFnadsDLc
+------------------------------
+  File: ./.git/objects/ce/0c72a712c5f147007995d1b6a8b2a05bafbfb5
+  Size: 567       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303946     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:02.605789525 -0300
+Modify: 2022-11-30 22:59:07.185169018 -0300
+Change: 2022-11-30 22:59:07.185169018 -0300
+ Birth: -
+IPFS hash: QmWh7ojLyv53hVEhp3gyzmL3hKHaUzRzLSzhSB7NsKX3i2
+------------------------------
+  File: ./.git/objects/53/3e118407dd7f502c9ee85d86f08844fcd9e1bf
+  Size: 9396      	Blocks: 24         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303945     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:03.193795931 -0300
+Modify: 2022-11-30 22:59:07.181168972 -0300
+Change: 2022-11-30 22:59:07.181168972 -0300
+ Birth: -
+IPFS hash: Qmf8peZLfRv1KZVRztGEN9PnWGQpnCxuKCzCAScNGYqY8J
+------------------------------
+  File: ./.git/objects/e1/b785cc71c9e2498e944984555e09de9f9c1db3
+  Size: 1062      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303942     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:03.605800416 -0300
+Modify: 2022-11-30 22:59:07.173168879 -0300
+Change: 2022-11-30 22:59:07.173168879 -0300
+ Birth: -
+IPFS hash: QmPoDSKKk1sLdhP8j9scXszbt3Rc5y4mHThNNQgvHHZNi3
+------------------------------
+  File: ./.git/objects/bf/56364da41841cdff16e406c4d5d818e03a102c
+  Size: 25250     	Blocks: 56         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303940     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:04.013804858 -0300
+Modify: 2022-11-30 22:59:07.169168834 -0300
+Change: 2022-11-30 22:59:07.169168834 -0300
+ Birth: -
+IPFS hash: QmNk1fhmTMCctbuUpFm9SVikT5mw8L54crJxsKsqJSWm6p
+------------------------------
+  File: ./.git/objects/bf/f6674652e0182108146e49f926a9473099e81c
+  Size: 1638      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303937     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:04.605811297 -0300
+Modify: 2022-11-30 22:59:07.001166901 -0300
+Change: 2022-11-30 22:59:07.001166901 -0300
+ Birth: -
+IPFS hash: QmdBn5aBS2QnvtqiG2TwJEMgnDayjXPUSMCavjube1WQKB
+------------------------------
+  File: ./.git/objects/5d/4a694b620b5482f5f92865342908a8ecdd2f9f
+  Size: 6935      	Blocks: 16         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303936     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:04.993815516 -0300
+Modify: 2022-11-30 22:59:07.001166901 -0300
+Change: 2022-11-30 22:59:07.001166901 -0300
+ Birth: -
+IPFS hash: QmdfyBrgD1WeTzvv2qLBkR8JxAAuGtNR3L64kfVj7FWfUj
+------------------------------
+  File: ./.git/objects/09/16f5734ed4474cfe03f4a496836ac3cb11eb8f
+  Size: 98394     	Blocks: 200        IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303943     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:05.393819863 -0300
+Modify: 2022-11-30 22:59:07.181168972 -0300
+Change: 2022-11-30 22:59:07.181168972 -0300
+ Birth: -
+IPFS hash: QmaGRwU9xRGzRMdFxHX5qnfrJ63noUNrPswZcSGUqpB2uq
+------------------------------
+  File: ./.git/objects/64/a31c8237fe8c39700c3770de23e21d0a2b2267
+  Size: 2040      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303947     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:05.809824383 -0300
+Modify: 2022-11-30 22:59:07.185169018 -0300
+Change: 2022-11-30 22:59:07.185169018 -0300
+ Birth: -
+IPFS hash: QmSTdvBXJTJFiY2wvu6VHQRZhKop8U4poU5GQNk9Nund9m
+------------------------------
+  File: ./.git/objects/a1/de05bc739b3568d9adef26b5d1eb41312f2479
+  Size: 3363047   	Blocks: 6576       IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303938     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:06.713834199 -0300
+Modify: 2022-11-30 22:59:07.161168742 -0300
+Change: 2022-11-30 22:59:07.161168742 -0300
+ Birth: -
+IPFS hash: QmSxGhCvnauXEJwLUr2zfHcbhYBF7ScFFjF27v4QvQKq7Y
+------------------------------
+  File: ./.git/objects/34/ab3ee57e66b19140c8ecbd2c72e456fbb9cb72
+  Size: 414       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303935     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:07.253840058 -0300
+Modify: 2022-11-30 22:59:06.997166855 -0300
+Change: 2022-11-30 22:59:06.997166855 -0300
+ Birth: -
+IPFS hash: QmeRobVZ941ET2vHFD2jHsQRfAs4VgDKDwjzQdP7aE9oDE
+------------------------------
+  File: ./.git/objects/fc/00db42eb192b5ff084e2751efff138f9647482
+  Size: 557       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303939     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:07.645844310 -0300
+Modify: 2022-11-30 22:59:07.165168787 -0300
+Change: 2022-11-30 22:59:07.165168787 -0300
+ Birth: -
+IPFS hash: QmVGu7VFYrGS8idsZSDyRF951HSpGXvHWMThQhr6S8UYFc
+------------------------------
+  File: ./.git/objects/52/3ffd0ff764b86a933adbcff9b628032489f51e
+  Size: 33414     	Blocks: 72         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303941     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:08.161849904 -0300
+Modify: 2022-11-30 22:59:07.173168879 -0300
+Change: 2022-11-30 22:59:07.173168879 -0300
+ Birth: -
+IPFS hash: Qme3k4u4hMBNxQv2htDZtGEpb9Zisr3KusieNarZYALTLU
+------------------------------
+  File: ./.git/objects/02/edf8c2b4d07fd8eeaae2fb1f1e31eb2c46426c
+  Size: 2988      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303944     Links: 1
+Access: (0444/-r--r--r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:08.713855885 -0300
+Modify: 2022-11-30 22:59:07.181168972 -0300
+Change: 2022-11-30 22:59:07.181168972 -0300
+ Birth: -
+IPFS hash: QmdVXe22ypBQw5Qhca162i79r15gCLsDPwx3Ns35E3gzWY
+------------------------------
+  File: ./.git/HEAD
+  Size: 23        	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329629     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:52:41.967607122 -0300
+Modify: 2022-11-30 22:52:41.951606830 -0300
+Change: 2022-11-30 22:52:41.951606830 -0300
+ Birth: -
+IPFS hash: QmWeKwYTKwBwVd7AKioXTmtpLFxTk3MBBk2ef2JtwCccAi
+------------------------------
+  File: ./.git/config
+  Size: 92        	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329631     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:52:41.967607122 -0300
+Modify: 2022-11-30 22:52:41.951606830 -0300
+Change: 2022-11-30 22:52:41.951606830 -0300
+ Birth: -
+IPFS hash: QmavNC8oMeY8vK1AvU48sFtzS2uTe8dqNcMoET2gDJp4cB
+------------------------------
+  File: ./Eventlr quick prototype.caproj
+  Size: 5892      	Blocks: 16         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3205878     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.720135270 -0300
+Modify: 2021-09-21 21:40:39.006465000 -0300
+Change: 2022-03-05 14:37:29.874978917 -0300
+ Birth: -
+IPFS hash: QmV5wTwnE4Fq3LsC6AXQHXEkaygqpPAh2cw3kzB52PCdZN
+------------------------------
+  File: ./folderstamp_recursive.sh
+  Size: 2365      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3181011     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:59:48.417633870 -0300
+Modify: 2022-11-22 18:45:33.375753000 -0300
+Change: 2022-11-30 22:59:38.313521704 -0300
+ Birth: -
+IPFS hash: QmRmYGZyeoWY4jHLex4didmsviDWE3BDhMjuRicfENGBm2
+------------------------------
+  File: ./c2export/icon-16.png
+  Size: 1041      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303919     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:11.033880990 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-23 13:40:51.633678929 -0300
+ Birth: -
+IPFS hash: QmSbDE1mByEBSELhVmQTQFiNGMk9qXBkHYB5hSdBMK8wDQ
+------------------------------
+  File: ./c2export/main.js
+  Size: 619       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303931     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.916135540 -0300
+Modify: 2019-06-26 12:58:33.583124000 -0300
+Change: 2022-03-23 13:40:51.645678938 -0300
+ Birth: -
+IPFS hash: QmRBHndzd9iCamemkKGyZukJxwVYrCz4YMTwLznVSLjBT7
+------------------------------
+  File: ./c2export/icon-32.png
+  Size: 2967      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303920     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:00:12.449896283 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-23 13:40:51.633678929 -0300
+ Birth: -
+IPFS hash: QmQaj3Ksk8ho8vXB4Kr1gjQ67frHJk2hc3kGmYj8t9oFyg
+------------------------------
+  File: ./c2export/appmanifest.json
+  Size: 570       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303928     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.884135497 -0300
+Modify: 2021-09-21 21:32:44.685644000 -0300
+Change: 2022-03-23 13:40:51.645678938 -0300
+ Birth: -
+IPFS hash: QmaFXGAVDu1nSvdmQ7pDVKQ41fukWwG7cWEV7rWE4wscMn
+------------------------------
+  File: ./c2export/sw.js
+  Size: 11532     	Blocks: 24         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303929     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:34:08.820147803 -0300
+Modify: 2016-10-07 13:55:40.000000000 -0300
+Change: 2022-03-23 13:40:51.645678938 -0300
+ Birth: -
+IPFS hash: QmeinHvTQsdwYEtijLZBDJ3ByrpVnY1Wy4QyGzaAWJvZjp
+------------------------------
+  File: ./c2export/index.html
+  Size: 3004      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303916     Links: 1
+Access: (0777/-rwxrwxrwx)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.912135535 -0300
+Modify: 2019-07-07 00:34:34.684067000 -0300
+Change: 2022-03-23 13:40:51.629678926 -0300
+ Birth: -
+IPFS hash: Qmb43zedKBYmxBro5GUd3UVFucaL9C7fXVNRsu3TyPTWT3
+------------------------------
+  File: ./c2export/c2runtime.js
+  Size: 836098    	Blocks: 1640       IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303927     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.888135502 -0300
+Modify: 2021-09-21 21:32:44.685644000 -0300
+Change: 2022-03-23 13:40:51.645678938 -0300
+ Birth: -
+IPFS hash: Qmb9y96Zk1LPN1TzunJtTcHGXxrBki2EawCfc837xLVgjV
+------------------------------
+  File: ./c2export/c2webappstart.js
+  Size: 813       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303918     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.912135535 -0300
+Modify: 2016-02-29 18:26:28.000000000 -0300
+Change: 2022-03-23 13:40:51.633678929 -0300
+ Birth: -
+IPFS hash: QmWuPB6VDcCdjGsuqeMzqNCEDowGV6eBVWoxkmGyK81sqt
+------------------------------
+  File: ./c2export/loading-logo.png
+  Size: 9375      	Blocks: 24         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303924     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-23 13:41:33.105696330 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-23 13:40:51.637678932 -0300
+ Birth: -
+IPFS hash: QmeRj44aQFKvYpfqcLDaVyCnteNaidXntFLoU2TEJkJQKt
+------------------------------
+  File: ./c2export/icon-128.png
+  Size: 33382     	Blocks: 72         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303922     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-23 13:41:33.293696359 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-23 13:40:51.633678929 -0300
+ Birth: -
+IPFS hash: QmUtz5aRXpyNmkawJoAFpCmcKAREt5RVNVrEq68VzttAUY
+------------------------------
+  File: ./c2export/offline.js
+  Size: 272       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303926     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:34:08.800147776 -0300
+Modify: 2021-09-21 21:32:44.561645000 -0300
+Change: 2022-03-23 13:40:51.637678932 -0300
+ Birth: -
+IPFS hash: QmNjRUG8ue41gyKPUhovwrjGc9pXfZjHEaK7WhdQynY4yb
+------------------------------
+  File: ./c2export/icon-256.png
+  Size: 98347     	Blocks: 200        IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303923     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-23 13:41:33.201696344 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-23 13:40:51.637678932 -0300
+ Birth: -
+IPFS hash: QmQUKeb5ruKhiAfeverMQcjgkb4nFuk6v7rEXtpQkgSchR
+------------------------------
+  File: ./c2export/offlineClient.js
+  Size: 1434      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303930     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:34:08.800147776 -0300
+Modify: 2016-09-29 17:16:24.000000000 -0300
+Change: 2022-03-23 13:40:51.645678938 -0300
+ Birth: -
+IPFS hash: QmSF6zfAcjAXbmXbkQVCC7DUxzEpfHF2BNiyumxyirowa9
+------------------------------
+  File: ./c2export/package.json
+  Size: 3626      	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3329630     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:54:29.257427028 -0300
+Modify: 2022-11-30 22:53:51.920822508 -0300
+Change: 2022-11-30 22:53:51.928822641 -0300
+ Birth: -
+IPFS hash: QmTiEgmYPbmpRxQDSiYtNeKnahsYY4u2fRt4qFmzNm118u
+------------------------------
+  File: ./c2export/package-lock.json
+  Size: 691601    	Blocks: 1352       IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303933     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:34:08.800147776 -0300
+Modify: 2022-11-30 22:55:13.918113573 -0300
+Change: 2022-11-30 22:55:13.918113573 -0300
+ Birth: -
+IPFS hash: QmWKNXzqEbYxgH3VtCUUq7wH33iru9a8QRzKZLBefM3W7t
+------------------------------
+  File: ./c2export/offline.appcache
+  Size: 211       	Blocks: 8          IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303925     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:34:08.800147776 -0300
+Modify: 2021-09-21 21:32:44.561645000 -0300
+Change: 2022-03-23 13:40:51.637678932 -0300
+ Birth: -
+IPFS hash: QmcAKKA8Gre5SpK6JyiRUY8rATpkudQ9v4wwFzv2gWDvUv
+------------------------------
+  File: ./c2export/icon-114.png
+  Size: 25223     	Blocks: 56         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303921     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-03-23 13:41:33.393696374 -0300
+Modify: 2021-09-20 00:18:33.281594000 -0300
+Change: 2022-03-23 13:40:51.633678929 -0300
+ Birth: -
+IPFS hash: QmPMusqZ32WRpLAo4HMgoa2neTfjhDJYJBSsvwwyuNTYrQ
+------------------------------
+  File: ./c2export/jquery-2.1.1.min.js
+  Size: 84248     	Blocks: 168        IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303917     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.916135540 -0300
+Modify: 2014-10-29 16:05:58.000000000 -0200
+Change: 2022-03-23 13:40:51.629678926 -0300
+ Birth: -
+IPFS hash: QmNdT88m3VqmZtDfThm2FMVzKNY5KkmZEVwJrVkn7usKRC
+------------------------------
+  File: ./c2export/data.js
+  Size: 12477     	Blocks: 32         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3303915     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 22:33:59.912135535 -0300
+Modify: 2021-09-21 21:32:44.561645000 -0300
+Change: 2022-03-23 13:40:51.629678926 -0300
+ Birth: -
+IPFS hash: QmZSK5kd58CWpz6jHgw9BEoQk8D79c4wUcv8RCmzbJfNMV
+------------------------------
+  File: ./.folderstamp
+  Size: 29966     	Blocks: 64         IO Block: 4096   regular file
+Device: 836h/2102d	Inode: 3181016     Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1000/ daniell)   Gid: ( 1000/ daniell)
+Access: 2022-11-30 23:05:43.517011944 -0300
+Modify: 2022-11-30 23:06:14.585267132 -0300
+Change: 2022-11-30 23:06:14.585267132 -0300
+ Birth: -
+IPFS hash: QmddTQyVpEm1uk4zUzCdbVAarpj39izpUAJF3jBJ4YPHca
+------------------------------

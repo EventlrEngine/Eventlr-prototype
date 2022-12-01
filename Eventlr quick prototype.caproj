@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Eventlr quick prototype</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>gxgsz69tn399</unique-id>
+    <saved-with-version>24400</saved-with-version>
+    <used-plugins>
+        <plugin author="Pinco, Scirra" id="AdvTextBox" version="1.700000048">Advanced Text box</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
+        <plugin author="Scirra" id="Button" version="1">Button</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Yann Granjon" id="JSON" version="1.200000048">JSON</plugin>
+        <plugin author="Scirra" id="List" version="1">List</plugin>
+        <plugin author="Scirra" id="LocalStorage" version="1">Local storage</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+        <plugin author="Armaldio" id="armaldio_electron" version="1">Electron</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Construct 2 splash</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Custom</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Text" sid="474389654504327">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="addvalue" sid="578827186572423">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Log" sid="970119203833950">
+            <plugin id="AdvTextBox" />
+        </object-type>
+        <object-type name="VariableName" sid="613064559338468">
+            <plugin id="AdvTextBox" />
+        </object-type>
+        <object-type name="VariableInitialValue" sid="634325408876716">
+            <plugin id="AdvTextBox" />
+        </object-type>
+        <object-type name="CloseNewVariable" sid="603194033282595">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="VariableType" sid="834969308508131">
+            <plugin id="List" />
+        </object-type>
+        <object-type name="AddVariableSubmit" sid="642119885479636">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="Functions" sid="260695553054021">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="List" sid="509551136695712">
+            <plugin id="List" />
+        </object-type>
+        <object-type name="Text2" sid="818159630918313">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="AddEvent" sid="286133413015915">
+            <plugin id="Button" />
+        </object-type>
+        <object-type name="EventsList" sid="796068330614983">
+            <plugin id="AdvTextBox" />
+        </object-type>
+        <object-type name="WebStorage" sid="682144830960848">
+            <plugin id="WebStorage" />
+        </object-type>
+        <object-type name="LocalStorage" sid="617582769549593">
+            <plugin id="LocalStorage" />
+        </object-type>
+        <object-type name="Browser" sid="449760096320640">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type global="1" name="JSON" sid="855091490065258">
+            <plugin id="JSON" />
+        </object-type>
+        <object-type name="Electron" sid="822768810870960">
+            <plugin id="armaldio_electron" />
+        </object-type>
+        <object-type name="VariablesList" sid="723124310874252">
+            <plugin id="List" />
+        </object-type>
+        <object-type global="1" name="eventsheet" sid="485477157542542">
+            <plugin id="JSON" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Functions" uid="8" />
+        <global-instance type="WebStorage" uid="14" />
+        <global-instance type="LocalStorage" uid="15" />
+        <global-instance type="Browser" uid="16" />
+        <global-instance type="Electron" uid="9" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
